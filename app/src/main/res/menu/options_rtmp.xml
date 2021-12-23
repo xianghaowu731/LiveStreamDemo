@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+  <item android:title="Protocols">
+    <menu>
+      <item
+          android:title="TCP"
+          app:actionViewClass="android.widget.RadioButton"
+          android:id="@+id/rb_tcp"
+          />
+    </menu>
+  </item>
+  <item android:title="Video">
+    <menu>
+      <item
+          android:title="Resolution"
+          app:actionViewClass="android.widget.Spinner"
+          android:id="@+id/sp_resolution"
+          />
+      <item
+          android:title="Video_bitrate"
+          app:actionLayout="@xml/edit_text_int"
+          android:id="@+id/et_video_bitrate"
+          />
+      <item
+          android:title="Fps"
+          app:actionLayout="@xml/edit_text_int"
+          android:id="@+id/et_fps"
+          />
+    </menu>
+  </item>
+  <item android:title="Audio">
+    <menu>
+      <item
+          android:title="Audio_bitrate"
+          app:actionLayout="@xml/edit_text_int"
+          android:id="@+id/et_audio_bitrate"
+          />
+      <item
+          android:title="Samplerate"
+          app:actionLayout="@xml/edit_text_int"
+          android:id="@+id/et_samplerate"
+          />
+      <item
+          android:title="Channel"
+          app:actionLayout="@xml/radio_group_audio"
+          android:id="@+id/channel"
+          />
+      <item
+          android:title="Echo_canceler"
+          app:actionViewClass="android.widget.CheckBox"
+          android:id="@+id/cb_echo_canceler"
+          />
+      <item
+          android:title="Noise_suppressor"
+          app:actionViewClass="android.widget.CheckBox"
+          android:id="@+id/cb_noise_suppressor"
+          />
+    </menu>
+  </item>
+  <item android:title="Auth">
+    <menu>
+      <item
+          android:title="User"
+          app:actionLayout="@xml/edit_text_auth"
+          android:id="@+id/et_user"
+          />
+      <item
+          android:title="Password"
+          app:actionLayout="@xml/edit_text_auth"
+          android:id="@+id/et_password"
+          />
+    </menu>
+  </item>
+</menu>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/mydevel/2021_09_02(Khushboo)/Android_work/RoadcareDemo/app/src/main/res/layout/activity_camera.xml" value="0.3515625" />
+        <entry key="..\:/mydevel/2021_09_02(Khushboo)/Android_work/RoadcareDemo/app/src/main/res/layout/activity_glactivity.xml" value="0.2484375" />
+        <entry key="..\:/mydevel/2021_09_02(Khushboo)/Android_work/RoadcareDemo/app/src/main/res/layout/activity_main.xml" value="0.3515625" />
+        <entry key="..\:/mydevel/2021_09_02(Khushboo)/Android_work/RoadcareDemo/app/src/main/res/layout/activity_rtmp.xml" value="0.19270833333333334" />
+        <entry key="..\:/mydevel/2021_09_02(Khushboo)/Android_work/RoadcareDemo/app/src/main/res/menu/gl_menu.xml" value="0.2484375" />
+        <entry key="..\:/mydevel/2021_09_02(Khushboo)/Android_work/RoadcareDemo/app/src/main/res/menu/menu.xml" value="0.2484375" />
+        <entry key="..\:/mydevel/2021_09_02(Khushboo)/Android_work/RoadcareDemo/app/src/main/res/menu/options_rtmp.xml" value="0.2484375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

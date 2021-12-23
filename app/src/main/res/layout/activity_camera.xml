@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_example_rtmp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <SurfaceView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/surfaceView"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        >
+
+        <Button
+            android:text="start_record"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:id="@+id/b_record"
+            />
+
+        <Button
+            android:text="start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:id="@+id/b_start_stop"
+            />
+
+        <Button
+            android:text="switch_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/switch_camera"
+            />
+    </LinearLayout>
+</RelativeLayout>

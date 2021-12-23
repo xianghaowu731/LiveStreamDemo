@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RoadcareDemo</string>
+
+    <string name="rtmp_streamer">Custom RTMP</string>
+</resources>
